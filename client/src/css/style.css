@@ -1,0 +1,104 @@
+/*? ============= Font Import ============= */
+
+/* @font-face {
+  font-family: "Catamaran-Bold";
+  src: local("Catamaran-Bold"),
+    url("./fonts/Catamaran-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Catamaran-ExtraBold";
+  src: local("Catamaran-ExtraBold"),
+    url("./fonts/Catamaran-ExtraBold.ttf") format("truetype");
+} */
+
+/* @font-face {
+  font-family: "Asap-Bold";
+  src: local("Asap-Bold"),
+    url("../fonts/Asap/static/Asap-Bold.ttf") format("truetype");
+} */
+
+.root{
+  /* min-height: 100vh; */
+  /* background: #292c33; */
+  /* background-color: #292c33; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+body {
+  /* display: flex; */
+  /* min-height: 100vh; */
+  /* flex-direction: column; */
+  /* font-size: 62.5%; */
+  /* background: rgb(41,44, 51); */
+  /* background-color: rgb(41,44, 51); */
+  /* font-family: "Open Sans", sans-serif; */
+  /* line-height: 2; */
+  /* background-color: #292c33; */
+}
+
+html {
+    background-color: #C89364;
+
+}
+
+/*? ============= Home Page ============= */
+
+.application {
+  /* SenderOne Orange */
+  /* #EA8C20 */
+  /* SenderOne Light Blue */
+  /* background-color: #339BEA; */
+
+  /* background-color: #0084EA; SenderOne Darker Blue */
+  /* background-color: #EEEEEE; SenderOne Light Grey*/
+  /* background-color: #292C33; SenderOne Dark Grey */
+  /* background-color: rgb(41, 44, 51); */
+  background-color: #C89364;
+  /* min-height: 200%; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 150%;
+}
+
+.welcomeText {
+  font-size: 50px;
+  color: white;
+  font-family: "Asap-Bold";
+}
+
+.headerLogo {
+  justify-content: center;
+  width: 100%;
+}
+
+.footerLogo {
+
+  width: 40%;
+  position: fixed;
+  bottom: 65px;
+}
+
+.homeBTNs {
+  font-family: "Catamaran-ExtraBold";
+  height: 65px;
+  font-weight: 900;
+  font-size: 25px;
+  background-color: #FFCE8C;
+  color: 000000;
+  opacity: 100%;
+  border-radius: 15px;
+
+}
+
+.homeBTNs:hover {
+  background-color: #cf2b2bb5;
+  color: black;
+}
+
+
+.homeMenu {
+  /* max-width: 100%; */
+}
