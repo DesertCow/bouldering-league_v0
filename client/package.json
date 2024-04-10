@@ -4,7 +4,8 @@
   "description": "Client for the bouldering league Web App",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@apollo/client": "^3.7.15",

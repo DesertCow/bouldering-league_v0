@@ -1,0 +1,28 @@
+{
+  "name": "bouldering-league-app",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=16.15.1"
+  },
+  "description": "Bouldering League App V0",
+  "main": "index.js",
+  "scripts": {
+    "startClientServe": "cd client && serve -s build",
+    "startClientDev": "cd client && npm start",
+    "buildClient": "cd client/ && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesertCow/bouldering-league_v0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DesertCow/bouldering-league_v0/issues"
+  },
+  "homepage": "https://github.com/DesertCow/bouldering-league_v0#readme",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "serve": "^14.2.0"
+  }
+}

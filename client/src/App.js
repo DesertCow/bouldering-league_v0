@@ -30,8 +30,8 @@ import HomePage from './pages/HomePage';
 
 export default function App() {
 
-  // require('./css/style.css')
-  // require('./css/reset.css')
+  require('./css/style.css')
+  require('./css/reset.css')
 
   return (
 
