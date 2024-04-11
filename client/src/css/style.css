@@ -89,7 +89,8 @@ html {
   font-weight: 900;
   font-size: 25px;
   background-color: #FFCE8C;
-  color: #17A1E2;
+  /* color: #17A1E2; */
+  color: #000000;
   opacity: 100%;
   border-radius: 15px;
 
