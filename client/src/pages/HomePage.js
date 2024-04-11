@@ -28,13 +28,13 @@ const HomePage = () => {
 
   const handleEventUpdates = async (event) => {
     event.preventDefault();
-    navigate("/updates/current");
+    navigate("/updates");
     window.scrollTo(0, 0);
   };
 
   const handleSubmitScorecard = async (event) => {
     event.preventDefault();
-    navigate("/scorecard/submit");
+    navigate("/scorecard");
     window.scrollTo(0, 0);
   };
 
@@ -90,7 +90,7 @@ const HomePage = () => {
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleClimberProfile(event)}>Climber Profiles</div>
             </div> */}
             <div className="row px-5 py-3 pt-4">
-              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleSubmitScorecard(event)}>Submit Scorecard</div>
+              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleSubmitScorecard(event)}>Current Scorecard</div>
             </div>
             <div className="row px-5 py-3 pt-4">
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleEventUpdates(event)}>Event Updates</div>

@@ -22,6 +22,9 @@ import { useParams } from 'react-router-dom';
 //* Page Import
 
 import HomePage from './pages/HomePage';
+import TeamRankings from './pages/TeamRankings';
+import SubmitScorecard from './pages/SubmitScorecard';
+import EventUpdates from './pages/EventUpdates';
 
 
 //* Component Import
@@ -38,6 +41,9 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/team_rankings" element={<TeamRankings />} />
+        <Route path="/scorecard" element={<SubmitScorecard />} />
+        <Route path="/updates" element={<EventUpdates />} />
         {/* <Route path="/staff" element={<Staff />} /> */}
       </Routes>
     </Router>
