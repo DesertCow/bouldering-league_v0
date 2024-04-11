@@ -76,26 +76,28 @@ html {
 
 .footerLogo {
 
-  width: 40%;
+  /* width: 40%; */
+  max-height: 75px;
   position: fixed;
   bottom: 65px;
+  /* margin-top: 75px; */
 }
 
 .homeBTNs {
   font-family: "Catamaran-ExtraBold";
-  height: 65px;
+  height: 90px;
   font-weight: 900;
   font-size: 25px;
   background-color: #FFCE8C;
-  color: 000000;
+  color: #17A1E2;
   opacity: 100%;
   border-radius: 15px;
 
 }
 
 .homeBTNs:hover {
-  background-color: #cf2b2bb5;
-  color: black;
+  /* background-color: #cf2b2bb5; */
+  /* color: black; */
 }
 
 

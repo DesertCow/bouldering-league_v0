@@ -28,19 +28,20 @@ const HomePage = () => {
 
   const handleEventUpdates = async (event) => {
     event.preventDefault();
-    navigate("/updates/current");
+    navigate("/updates");
     window.scrollTo(0, 0);
   };
 
   const handleSubmitScorecard = async (event) => {
     event.preventDefault();
-    navigate("/scorecard/submit");
+    navigate("/scorecard");
     window.scrollTo(0, 0);
   };
 
-  const handlerClimberInfo = async (event) => {
+  const handleEventInfo = async (event) => {
     event.preventDefault();
-    navigate("/climberinfo");
+    // navigate("/climberinfo");
+    window.location.href = 'https://www.senderoneclimbing.com/bouldering-league/';
     window.scrollTo(0, 0);
   };
 
@@ -78,24 +79,24 @@ const HomePage = () => {
 
           {/* <h1 className="text-center mt-5 mx-5 welcomeText">Home Page!</h1> */}
 
-          <div className="text-center homeMenu row  mt-3 d-flex align-items-center justify-content-center">
-            <div className="row px-5 py-3">
-              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleTeamRankings(event)}>Team Rankings</div>
+          <div className="text-center homeMenu row mt-3 d-flex align-items-center justify-content-center">
+            <div className="row px-5 py-3 pt-5">
+              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleTeamRankings(event)}>Results/Rankings</div>
             </div>
-            <div className="row px-5 py-3">
+            {/* <div className="row px-5 py-3">
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleTeamPages(event)}>Team Pages</div>
-            </div>
-            <div className="row px-5 py-3">
+            </div> */}
+            {/* <div className="row px-5 py-3">
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleClimberProfile(event)}>Climber Profiles</div>
+            </div> */}
+            <div className="row px-5 py-3 pt-4">
+              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleSubmitScorecard(event)}>Current Scorecard</div>
             </div>
-            <div className="row px-5 py-3">
+            <div className="row px-5 py-3 pt-4">
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleEventUpdates(event)}>Event Updates</div>
             </div>
-            <div className="row px-5 py-3">
-              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleSubmitScorecard(event)}>Submit Scorecard</div>
-            </div>
-            <div className="row px-5 pt-3 mb-2">
-              <div className="homeBTNs p-2 mb-0 d-flex align-items-center justify-content-center" onClick={(event) => handlerClimberInfo(event)}>Climber Information</div>
+            <div className="row px-5 pt-3 mb-2 pt-4" >
+              <div className="homeBTNs p-2 mb-0 d-flex align-items-center justify-content-center" onClick={(event) => handleEventInfo(event)}>Competition Information</div>
             </div>
           </div>
           
