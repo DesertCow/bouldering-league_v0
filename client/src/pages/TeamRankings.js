@@ -1,5 +1,5 @@
-// import SideBar from "../components/Sidebar";
-// import Header from "../components/Header";
+import MainFooter from "../components/Footer";
+import MainHeader from "../components/Header";
 
 // import { useNavigate } from "react-router-dom";
 
@@ -9,22 +9,15 @@ const TeamRankings = () => {
 
   return (
 
-    <div className="homePage">
+    <div className="homePage w-100">
 
-      {/* <Header /> */}
+      <MainHeader />
 
       <div className="d-flex flex-row">
 
         {/* <SideBar/> */}
 
         <div className="w-100">
-
-          
-          <img src={require("../img/SNA_BoulderLeague24_WebHead.png")}
-            className="headerLogo"
-            // style={{paddingLeft: "63px", paddingRight: "63px"}}
-            onClick={() => HeaderLogoClicked(event)}
-            alt="Bouldering League Banner" />
 
           {/* <h1 className="text-center mt-5 mx-5 welcomeText">Team Rankings Page!</h1> */}
           <div className="tableDiv mt-3 px-3">
@@ -155,6 +148,7 @@ const TeamRankings = () => {
 
       </div>
 
+    <MainFooter />
 
     </div>
 

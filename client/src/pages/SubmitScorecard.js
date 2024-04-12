@@ -1,5 +1,6 @@
-// import SideBar from "../components/Sidebar";
-// import Header from "../components/Header";
+
+import MainFooter from "../components/Footer";
+import MainHeader from "../components/Header";
 
 import Button from 'react-bootstrap/Button';
 
@@ -29,24 +30,27 @@ const SubmitScorecard = () => {
     window.scrollTo(0, 0);
   };
 
+  const scorecardSubmitRequest = async (event) => {
+    console.log('Request to submit scorecard');
+    confirm("Press OK to submit scorecard othewise click cancel");
+  }
+
+  const scorecardClear = async (event) => {
+    console.log('Request to Clear Scorecard');
+    alert("Scorecard Cleared!");
+  }
+
   return (
 
-    <div className="homePage">
+    <div className="homePage w-100">
 
-      {/* <Header /> */}
+      <MainHeader />
 
       <div className="d-flex flex-row">
 
         {/* <SideBar/> */}
 
-        <div className="w-100">
-
-          
-          <img src={require("../img/SNA_BoulderLeague24_WebHead.png")}
-            className="headerLogo"
-            // style={{paddingLeft: "63px", paddingRight: "63px"}}
-            onClick={() => HeaderLogoClicked(event)}
-            alt="Bouldering League Banner" />
+        <div className="">
 
           <h1 className="text-center mt-2 mx-5 welcomeText scorecardTitleText">Week 2</h1>
 
@@ -184,9 +188,9 @@ const SubmitScorecard = () => {
           </table>
           
 
-          <div className='py-5 text-center'>
-            <Button className="mx-4" variant="success">Submit Scorecard</Button>{' '}
-            <Button className="mx-4" variant="warning">Clear Scorecard</Button>{' '}
+          <div className='py-5 mb-5 text-center'>
+            <Button className="mx-4" onClick={() => scorecardSubmitRequest(event)} variant="success">Submit Scorecard</Button>{' '}
+            <Button className="mx-4" onClick={() => scorecardClear(event)} variant="warning">Clear Scorecard</Button>{' '}
           </div>
           {/* <div className="text-center d-flex mb-2 align-items-center justify-content-center">
           <img src={require("../img/SenderOneLogo.png")}
@@ -201,6 +205,7 @@ const SubmitScorecard = () => {
 
       </div>
 
+      <MainFooter />
 
     </div>
 
