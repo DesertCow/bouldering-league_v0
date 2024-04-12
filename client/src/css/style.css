@@ -106,7 +106,7 @@ html {
   /* max-width: 100%; */
 }
 
-/*? ============= Home Page ============= */
+/*? ============= Rankings Page ============= */
 
 /* td {
   text-align: right;
@@ -177,7 +177,43 @@ table {
   font-weight: 700;
 }
 
-.tableDiv {
+/* .tableDiv {
   
+} */
+
+/*? ============= Scorecard Page ============= */
+
+.scorecardTableTitle {
+  border: 10px solid black;
+  border-right: 5px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
+.scorecardTableRank {
+  border-right: 5px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 25px;
+}
+
+.scorecardTableTeamName {
+  border-right: 5px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.scorecardTableWitness {
+  border-right: 10px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  width: 25px;
+}
