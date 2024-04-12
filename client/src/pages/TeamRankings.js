@@ -39,58 +39,58 @@ const TeamRankings = () => {
               <tbody>
                 <tr>
                   <td className="teamRankingsTableRank">1</td>
-                  <td className="teamRankingsTableTeamName">Team A</td>
-                  <td className="teamRankingsTablePoints">100</td>
+                  <td className="teamRankingsTableTeamName">TBD 7</td>
+                  <td className="teamRankingsTablePoints">138</td>
                 </tr>
                 <tr>
                   <td className="teamRankingsTableRank">2</td>
-                  <td className="teamRankingsTableTeamName">Team B</td>
-                  <td className="teamRankingsTablePoints">99</td>
+                  <td className="teamRankingsTableTeamName">Maximum Effort</td>
+                  <td className="teamRankingsTablePoints">136</td>
                 </tr>
                 <tr>
                   <td className="teamRankingsTableRank">3</td>
-                  <td className="teamRankingsTableTeamName">Team C</td>
-                  <td className="teamRankingsTablePoints">98</td>
+                  <td className="teamRankingsTableTeamName">Skin Issue</td>
+                  <td className="teamRankingsTablePoints">134</td>
                 </tr>
                 <tr>
                   <td className="teamRankingsTableRank">4</td>
-                  <td className="teamRankingsTableTeamName">Team D</td>
-                  <td className="teamRankingsTablePoints">97</td>
+                  <td className="teamRankingsTableTeamName">Gravity Crushers</td>
+                  <td className="teamRankingsTablePoints">127</td>
                 </tr>
                 <tr>
                   <td className="teamRankingsTableRank">5</td>
-                  <td className="teamRankingsTableTeamName">Team E</td>
-                  <td className="teamRankingsTablePoints">96</td>
+                  <td className="teamRankingsTableTeamName">Beta Males</td>
+                  <td className="teamRankingsTablePoints">126</td>
                 </tr>
                 <tr>
-                  <td className="teamRankingsTableRank">6</td>
-                  <td className="teamRankingsTableTeamName">Team F</td>
-                  <td className="teamRankingsTablePoints">95</td>
+                  <td className="teamRankingsTableRank">5</td>
+                  <td className="teamRankingsTableTeamName">Here to Touch Rocks and Eat Chalk</td>
+                  <td className="teamRankingsTablePoints">126</td>
                 </tr>
                 <tr>
                   <td className="teamRankingsTableRank">7</td>
-                  <td className="teamRankingsTableTeamName">Team G</td>
-                  <td className="teamRankingsTablePoints">94</td>
+                  <td className="teamRankingsTableTeamName">Idk</td>
+                  <td className="teamRankingsTablePoints">124</td>
                 </tr>
                 <tr>
                   <td className="teamRankingsTableRank">8</td>
-                  <td className="teamRankingsTableTeamName">Team H</td>
-                  <td className="teamRankingsTablePoints">93</td>
+                  <td className="teamRankingsTableTeamName">GenXSenders</td>
+                  <td className="teamRankingsTablePoints">122</td>
                 </tr>
                 <tr>
-                  <td className="teamRankingsTableRank">9</td>
-                  <td className="teamRankingsTableTeamName">Team I</td>
-                  <td className="teamRankingsTablePoints">92</td>
+                  <td className="teamRankingsTableRank">8</td>
+                  <td className="teamRankingsTableTeamName">Summertime Sendness</td>
+                  <td className="teamRankingsTablePoints">122</td>
                 </tr>
                 <tr>
                   <td className="teamRankingsTableRank">10</td>
-                  <td className="teamRankingsTableTeamName">Team J</td>
-                  <td className="teamRankingsTablePoints">91</td>
+                  <td className="teamRankingsTableTeamName">Los Jugs and Pinches</td>
+                  <td className="teamRankingsTablePoints">112</td>
                 </tr>
                 <tr>
-                  <td className="teamRankingsTableRank">11</td>
-                  <td className="teamRankingsTableTeamName">Team A2</td>
-                  <td className="teamRankingsTablePoints">90</td>
+                  <td className="teamRankingsTableRank">10</td>
+                  <td className="teamRankingsTableTeamName">Edge Masters</td>
+                  <td className="teamRankingsTablePoints">112</td>
                 </tr>
                 <tr>
                   <td className="teamRankingsTableRank">12</td>

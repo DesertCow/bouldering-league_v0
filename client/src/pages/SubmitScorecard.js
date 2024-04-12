@@ -1,13 +1,17 @@
 // import SideBar from "../components/Sidebar";
 // import Header from "../components/Header";
 
-// import { useNavigate } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 import Switch from "react-switch";
 import React, { Component, useState } from "react";
 
+import { useNavigate } from "react-router-dom";
+
 
 const SubmitScorecard = () => {
+
+  const navigate = useNavigate();
 
   const [checked, setChecked] = useState(false);
   const flashSwitch = nextChecked => {
@@ -17,6 +21,12 @@ const SubmitScorecard = () => {
   const [checked2, setChecked2] = useState(false);
   const sendSwitch = nextChecked2 => {
     setChecked2(nextChecked2);
+  };
+
+  const HeaderLogoClicked = async (event) => {
+    event.preventDefault();
+    navigate("/");
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -38,7 +48,7 @@ const SubmitScorecard = () => {
             onClick={() => HeaderLogoClicked(event)}
             alt="Bouldering League Banner" />
 
-          {/* <h1 className="text-center mt-5 mx-5 welcomeText">Scorecard Page!</h1> */}
+          <h1 className="text-center mt-2 mx-5 welcomeText scorecardTitleText">Week 2</h1>
 
           <table className="teamRankingsTable text-center w-100 mt-3 p-3">
             <thead className="scorecardTableTitle">
@@ -173,6 +183,11 @@ const SubmitScorecard = () => {
             </tbody>
           </table>
           
+
+          <div className='py-5 text-center'>
+            <Button className="mx-4" variant="success">Submit Scorecard</Button>{' '}
+            <Button className="mx-4" variant="warning">Clear Scorecard</Button>{' '}
+          </div>
           {/* <div className="text-center d-flex mb-2 align-items-center justify-content-center">
           <img src={require("../img/SenderOneLogo.png")}
             className="footerLogo align-items-center justify-content-center"

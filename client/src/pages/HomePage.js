@@ -71,7 +71,7 @@ const HomePage = () => {
         <div className="w-100">
 
           
-          <img src={require("../img/SNA_BoulderLeague24_WebHead.png")}
+          <img src={require("../img/BoulderLeague24.png")}
             className="headerLogo"
             // style={{paddingLeft: "63px", paddingRight: "63px"}}
             onClick={() => HeaderLogoClicked(event)}
@@ -100,8 +100,17 @@ const HomePage = () => {
             </div>
           </div>
           
-          <div className="text-center d-flex mb-2 align-items-center justify-content-center">
+          {/* <div className="text-center d-flex mb-2 align-items-center justify-content-center">
           <img src={require("../img/SenderOneLogo.png")}
+            className="footerLogo align-items-center justify-content-center"
+            // style={{paddingLeft: "63px", paddingRight: "63px"}}
+            onClick={() => senderOneHomePage(event)}
+            alt="SenderOne Logo" />
+          </div> */}
+
+          <div className="text-center d-flex">
+          {/* <img src={require("../img/SenderOneLogo.png")} */}
+          <img src={require("../img/Sponsors_2.png")}
             className="footerLogo align-items-center justify-content-center"
             // style={{paddingLeft: "63px", paddingRight: "63px"}}
             onClick={() => senderOneHomePage(event)}
