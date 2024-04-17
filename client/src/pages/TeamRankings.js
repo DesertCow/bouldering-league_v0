@@ -59,6 +59,7 @@ const TeamRankings = () => {
         <div className="w-100 leaderboardTable">
 
           {/* <h1 className="text-center mt-5 mx-5 welcomeText">Team Rankings Page!</h1> */}
+          <h1 className="text-center mb-4 mx-5 welcomeText scorecardTitleText">Week 2 Team Rankings</h1>
           <div className="tableDiv my-3 px-3">
             <table className="teamRankingsTable text-center w-100 mt-3 p-3">
               <thead className="teamRankingsTableTitle">

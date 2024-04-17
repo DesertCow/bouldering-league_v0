@@ -94,7 +94,7 @@ const SubmitScorecard = () => {
 
         <div className="w-100 mx-4">
 
-          <h1 className="text-center mb-4 mx-5 welcomeText scorecardTitleText">Week 3</h1>
+          <h1 className="text-center mb-5 mx-5 welcomeText scorecardTitleText">Week 3 Scorecard</h1>
 
           <table className="teamRankingsTable text-center w-100">
             <thead className="scorecardTableTitle">
