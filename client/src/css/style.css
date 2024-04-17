@@ -159,7 +159,7 @@ table {
   border-right: 5px solid black;
   border-bottom: 4px solid black;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 23px;
   align-items: center;
   justify-content: center;
   font-weight: 700;
@@ -172,6 +172,10 @@ table {
   font-size: 25px;
   font-weight: 700;
   width: 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .teamRankingsTableTitle {
@@ -182,9 +186,9 @@ table {
   font-weight: 700;
 }
 
-/* .tableDiv {
-  
-} */
+.leaderboardTable {
+  margin-bottom: 13%;
+}
 
 /*? ============= Scorecard Page ============= */
 
@@ -239,4 +243,7 @@ table {
 .scorecardButton{
   width: 50%;
   height: 100px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
 }

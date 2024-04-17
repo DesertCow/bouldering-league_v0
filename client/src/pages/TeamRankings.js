@@ -41,7 +41,7 @@ const TeamRankings = () => {
 
   var leaderboardHTML = []
 
-  //* Generate a button for each surf session in the database for the user
+  //* Generate Line in the table for each team
   teamRankingData.forEach(populateTeamLeaderboardHTML)
 
   console.log(leaderboardHTML)
@@ -56,7 +56,7 @@ const TeamRankings = () => {
 
         {/* <SideBar/> */}
 
-        <div className="w-100">
+        <div className="w-100 leaderboardTable">
 
           {/* <h1 className="text-center mt-5 mx-5 welcomeText">Team Rankings Page!</h1> */}
           <div className="tableDiv my-3 px-3">

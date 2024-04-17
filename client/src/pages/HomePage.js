@@ -110,7 +110,7 @@ const HomePage = () => {
 
           {/* <div className="text-center d-flex">
           <img src={require("../img/SenderOneLogo.png")}
-          <img src={require("../img/Sponsors_2.png")}
+          // <img src={require("../img/Sponsors_2.png")}
             className="footerLogo align-items-center justify-content-center"
             style={{paddingLeft: "63px", paddingRight: "63px"}}
             onClick={() => senderOneHomePage(event)}
