@@ -184,6 +184,8 @@ table {
   border-radius: 10px;
   font-size: 25px;
   font-weight: 700;
+  justify-content: center;
+  align-items: center;
 }
 
 .leaderboardTable {
@@ -209,8 +211,10 @@ table {
   border-right: 5px solid black;
   border-bottom: 4px solid black;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 35px;
   width: 25px;
+  justify-content: center;
+  align-items: center;
 }
 
 .scorecardTableTeamName {
@@ -230,6 +234,11 @@ table {
   font-size: 25px;
   font-weight: 700;
   width: 25px;
+}
+
+.witnessInput {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
