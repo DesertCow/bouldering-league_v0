@@ -76,16 +76,20 @@ html {
 
 .footerLogo {
 
-  /* width: 40%; */
-  max-height: 75px;
-  position: fixed;
-  bottom: 65px;
-  /* margin-top: 75px; */
+  width: 100%;
+  /* max-height: 75px; */
+  /* position: fixed; */
+  /* bottom: 65px; */
+  /* margin-bottom: 250px; */
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
 }
 
 .homeBTNs {
   font-family: "Catamaran-ExtraBold";
-  height: 90px;
+  height: 80px;
   font-weight: 900;
   font-size: 25px;
   background-color: #FFCE8C;
@@ -106,7 +110,7 @@ html {
   /* max-width: 100%; */
 }
 
-/*? ============= Home Page ============= */
+/*? ============= Rankings Page ============= */
 
 /* td {
   text-align: right;
@@ -134,6 +138,7 @@ table {
 
   align-items: center;
   justify-content: center;
+  /* margin-bottom: 15%; */
 
   font-size: 20px;
   -webkit-border-radius: 10px;
@@ -154,7 +159,7 @@ table {
   border-right: 5px solid black;
   border-bottom: 4px solid black;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 23px;
   align-items: center;
   justify-content: center;
   font-weight: 700;
@@ -167,6 +172,10 @@ table {
   font-size: 25px;
   font-weight: 700;
   width: 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .teamRankingsTableTitle {
@@ -177,7 +186,64 @@ table {
   font-weight: 700;
 }
 
-.tableDiv {
-  
+.leaderboardTable {
+  margin-bottom: 13%;
 }
 
+/*? ============= Scorecard Page ============= */
+
+.scorecardTitleText {
+  color: #000000;
+  font-weight: 700;
+}
+
+.scorecardTableTitle {
+  border: 10px solid black;
+  border-right: 5px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.scorecardTableRank {
+  border-right: 5px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 25px;
+}
+
+.scorecardTableTeamName {
+  border-right: 5px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.scorecardTableWitness {
+  border-right: 10px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  width: 25px;
+}
+
+
+
+.scorcardSubmitButtonGroup {
+
+  margin-bottom: 150px;
+
+}
+
+.scorecardButton{
+  width: 50%;
+  height: 100px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+}

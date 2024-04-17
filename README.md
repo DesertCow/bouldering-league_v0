@@ -95,18 +95,20 @@ To reduce the staff workload managing weekly bouldering league data while creati
 
 * **Client** (React 18.2.0)
   * NPM Packages
-    * Package
-    * Package
-    * Package
-    * Package
-    * Package
-    * Package
-    * Package
-    * Package
-    * Package
-    * Package
-    * Package
-    * Package
+    * @apollo/client
+    * @emotion/react
+    * @emotion/styled
+    * bootstrap
+    * jquery
+    * react
+    * react-bootstrap
+    * react-dom
+    * react-material-symbols
+    * react-popper
+    * react-router-dom
+    * react-scripts
+    * react-switch
+    * reactjs-popup
 
 <br>
 
