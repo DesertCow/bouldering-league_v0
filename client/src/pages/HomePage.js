@@ -81,7 +81,7 @@ const HomePage = () => {
 
           <div className="text-center homeMenu row mt-3 d-flex align-items-center justify-content-center">
             <div className="row px-5 py-3 pt-5">
-              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleTeamRankings(event)}>Results/Rankings</div>
+              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleTeamRankings(event)}>Team Rankings</div>
             </div>
             {/* <div className="row px-5 py-3">
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleTeamPages(event)}>Team Pages</div>
@@ -90,7 +90,7 @@ const HomePage = () => {
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleClimberProfile(event)}>Climber Profiles</div>
             </div> */}
             <div className="row px-5 py-3 pt-4">
-              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleSubmitScorecard(event)}>Current Scorecard</div>
+              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleSubmitScorecard(event)}>Week 3 Scorecard</div>
             </div>
             <div className="row px-5 py-3 pt-4">
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleEventUpdates(event)}>Event Updates</div>
