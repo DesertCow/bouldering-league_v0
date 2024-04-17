@@ -138,7 +138,7 @@ table {
 
   align-items: center;
   justify-content: center;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
 
   font-size: 20px;
   -webkit-border-radius: 10px;
@@ -226,4 +226,17 @@ table {
   font-size: 25px;
   font-weight: 700;
   width: 25px;
+}
+
+
+
+.scorcardSubmitButtonGroup {
+
+  margin-bottom: 150px;
+
+}
+
+.scorecardButton{
+  width: 50%;
+  height: 100px;
 }
