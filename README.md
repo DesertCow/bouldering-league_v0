@@ -21,7 +21,7 @@
 * [Installation](#installation)
 * [Software Stack](#software-stack)
 * [Hardware Stack](#hardware-stack)
-* [Wireframe](#wireframe)
+* [Demo/Screenshots](#wireframe)
 <!-- * [Demo](#demo) -->
 
 
@@ -131,7 +131,7 @@ To reduce the staff workload managing weekly bouldering league data while creati
 <br>
 <br>
 
-## [Demo](#table-of-contents)
+## [Demo/Screenshots](#table-of-contents)
 
 <div align="center">
 <h2>Home Page</h2>
@@ -143,42 +143,42 @@ To reduce the staff workload managing weekly bouldering league data while creati
 <br>
 <br>
 
-<div align="center">  
+<!-- <div align="center">  
   <h2>Team Rankings</h2>
 <div/>
 <p align="center">
   <img src="./Dev_Docs/Wireframes/Home_Page.png" width="850" alt="Demo 2"/img>
-</p>
+</p> -->
 
 <br>
 <br>
 
-<div align="center">
+<!-- <div align="center">
   <h2>Climber Profile Page</h2>
 <div/>
 <p align="center">
   <img src="./Dev_Docs/Wireframes/Class.png" width="850" alt="Demo 3"/img>
-</p>
+</p> -->
 
 <br>
 <br>
 
-<div align="center">
+<!-- <div align="center">
   <h2>Team Page</h2>
 <div/>
 <p align="center">
   <img src="./Dev_Docs/Wireframes/Admin_Settings.png"  width="850" alt="Demo 4"/img>
-</p>
+</p> -->
 
 <br>
 <br>
 
-<div align="center">
+<!-- <div align="center">
   <h2>Scorecard Submit Page</h2>
 <div/>
 <p align="center">
   <img src="./Dev_Docs/Wireframes/Admin_Settings.png"  width="850" alt="Demo 4"/img>
-</p>
+</p> -->
 
 <br>
 <br>
