@@ -137,7 +137,7 @@ To reduce the staff workload managing weekly bouldering league data while creati
 <h2>Home Page</h2>
 <div/>
  <p align="center">
-  <img src="./Dev_Docs/img/DEMO_HomePage.png" width="850" alt="Demo 1"/img>
+  <img src="./Dev_Docs/img/DEMO_HomePage.png" width="300" alt="Demo 1"/img>
 </p>
 
 <br>
