@@ -131,13 +131,13 @@ To reduce the staff workload managing weekly bouldering league data while creati
 <br>
 <br>
 
-## [Wireframe](#table-of-contents)
+## [Demo](#table-of-contents)
 
 <div align="center">
 <h2>Home Page</h2>
 <div/>
  <p align="center">
-  <img src="./Dev_Docs/Wireframes/Login_Page.png" width="850" alt="Demo 1"/img>
+  <img src="./Dev_Docs/img/DEMO_HomePage.png" width="850" alt="Demo 1"/img>
 </p>
 
 <br>
