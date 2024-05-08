@@ -56,6 +56,12 @@ const HomePage = () => {
     window.scrollTo(0, 0);
   };
 
+  const handlePhotoPage = async (event) => {
+    event.preventDefault();
+    window.location.href = 'https://lightroom.adobe.com/shares/edbe685b58f34d7690c731af0fe13cd2';
+    window.scrollTo(0, 0);
+  };
+
 
 
 
@@ -90,10 +96,13 @@ const HomePage = () => {
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleClimberProfile(event)}>Climber Profiles</div>
             </div> */}
             <div className="row px-5 py-3 pt-4">
-              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleSubmitScorecard(event)}>Week 3 Scorecard</div>
+              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleSubmitScorecard(event)}>Week 4 Scorecard</div>
             </div>
             <div className="row px-5 py-3 pt-4">
               <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handleEventUpdates(event)}>Event Updates</div>
+            </div>
+            <div className="row px-5 py-3 pt-4">
+              <div className="homeBTNs p-2 d-flex align-items-center justify-content-center" onClick={(event) => handlePhotoPage(event)}>Photos / Videos</div>
             </div>
             <div className="row px-5 pt-3 mb-2 pt-4" >
               <div className="homeBTNs p-2 mb-0 d-flex align-items-center justify-content-center" onClick={(event) => handleEventInfo(event)}>Competition Information</div>
